@@ -1,0 +1,55 @@
+/* For Tablet: */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  * {
+    font-family: "inter", sans-serif;
+    margin: 0px auto;
+    box-sizing: border-box;
+  }
+  .nav-item {
+    font-size: 10px;
+    text-align: start;
+    height: auto;
+  }
+
+  #ten {
+    display: none;
+  }
+  .img-nav {
+    display: none;
+  }
+  #nav-bar {
+    height: 100%;
+  }
+  /* --- */
+  /* PHAN THONG TIN NGHE NGHIEP */
+  /*  .kinh-nghiem {
+    column-gap: 10px;
+  } */
+  /* PHAN CHUNG CHI */
+  .lap-trinh {
+    display: block;
+  }
+  .lap-trinh img {
+    width: 100%;
+  }
+  /* PHAN DU AN */
+  .cv-ca-nhan {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: start;
+    text-align: start;
+  }
+
+  .cv-ca-nhan span:nth-child(3) {
+    grid-column: 2/2;
+    text-align: center;
+  }
+  .icon-user-1,
+  .icon-lamp {
+    color: #0000005e;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 20px;
+  }
+}
