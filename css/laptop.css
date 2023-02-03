@@ -1,0 +1,312 @@
+/* @media only screen and (min-width: 768px) { */
+* {
+  font-family: "inter", sans-serif;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+
+section > .container {
+  max-width: 1170px;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+/* PHAN HEADER TRONG BODY */
+
+.banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  line-height: 1.5;
+}
+.banner h1 {
+  font-size: 44px;
+  font-weight: 500;
+}
+.banner p {
+  font-size: 24px;
+  font-weight: 300;
+}
+header {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/banner.jpg);
+  margin-bottom: 0;
+  height: 500px;
+}
+
+/* PHAN Nav-bar VA ICON NAV*/
+#nav-bar {
+  height: 100px;
+  position: relative;
+}
+.nav-item {
+  display: flex;
+  font-size: 18px;
+  justify-content: space-around;
+  list-style: none;
+  height: auto;
+}
+.nav-bar a {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+  border-left: 2px solid rgba(214, 192, 141, 0.4);
+  padding-left: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.img-nav {
+  width: 220px;
+  height: 220px;
+  border-radius: 100%;
+  position: absolute;
+  border: 15px solid #f7f7f7;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* icons nav */
+.nav-item i {
+  padding-left: 0;
+  margin-left: 0;
+}
+.icon-user,
+.icon-doc-text-inv,
+.icon-mail-alt,
+.icon-star-1 {
+  font-size: 22px;
+  color: #60b3dd;
+}
+/* --- */
+/* PHAN GIOI THIEU DUOI SECTION_NAV_BAR*/
+.thong-tin {
+  /*   display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  /* column-gap: 30px; */
+  background-color: #cfcfcf;
+}
+.mt-40-info {
+  list-style: none;
+  padding-left: 0;
+}
+.section-title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.target p {
+  line-height: 1.6;
+}
+.personal-info li {
+  line-height: 2;
+}
+.icon-twitter,
+.icon-facebook,
+.icon-gplus,
+.icon-linkedin {
+  color: #199cdb;
+  font-size: 18px;
+}
+/* --- */
+
+/* Phan Thong Tin Nghe Nghiep */
+#job-info {
+  margin-top: 0px;
+}
+.job-infomation {
+  /*   display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  font-size: 18px;
+  gap: 30px;
+}
+.b {
+  position: relative;
+  border: 1px solid #cfcfcf;
+  padding-top: 30px;
+  align-items: center;
+}
+.ic-toolbox,
+.ic-pencil,
+.ic-tools-2,
+.ic-mic,
+.ic-telescope {
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.icon-boder {
+  width: 30px;
+  height: 30px;
+}
+
+.cty-x {
+  margin-top: 60px;
+  padding-left: 30px;
+}
+.cty-x p {
+  padding-bottom: 15px;
+}
+.cty-x p:first-child ::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  left: 30px;
+  background-color: #199cdb;
+  border: 3px solid #199cdb;
+  z-index: 1;
+}
+.c {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+  margin-bottom: 50px;
+}
+.d {
+  background: rgb(190, 190, 190);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+  margin-bottom: 50px;
+}
+/* PHAN CHUNG CHI - GIAI THUONG */
+.chung-chi {
+  background: #f7f7f7;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: left;
+  line-height: 1.5;
+}
+
+.lap-trinh {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+.chung-chi p {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: black;
+}
+.chung-chi li {
+  text-align: left;
+}
+.chung-chi img {
+  width: 250px;
+  height: auto;
+}
+
+/* PHAN SO THICH */
+.ic-megaphone,
+.ic-strategy,
+.ic-hotairballoon,
+.ic-basket {
+  font-weight: bold;
+  font-size: 20px;
+  color: #60b3dd;
+  margin: 0 0 20px 10px;
+  padding: 10px 10px;
+  border: 3px solid #60b3dd;
+  border-radius: 50%;
+}
+.so-thich {
+  display: flex;
+  margin-top: 100px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* PHAN DU AN */
+.du-an {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.du-an h3 {
+  padding: 10px;
+}
+.cua-toi {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+
+.cv-ca-nhan {
+  padding-top: 20px;
+}
+.cv-ca-nhan span,
+div {
+  margin: 10px auto;
+}
+
+.image {
+  width: 100%;
+}
+table {
+  width: 100%;
+}
+table,
+tr {
+  padding: 10px;
+  text-align: left;
+}
+td {
+  text-align: left;
+  padding: 10px;
+}
+table,
+td {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-collapse: collapse;
+}
+.icon-user-1,
+.icon-lamp {
+  color: #199cdb;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+#g {
+  margin-left: 20px;
+  padding: 10px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #199cdb;
+  color: #f7f7f7;
+  border-radius: 15px;
+}
+/* PHAN FOOTER */
+
+footer {
+  background-color: #cfcfcf;
+  height: 100px;
+}
+.footer a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #60b3dd;
+}
+
+.icon-facebook-circled,
+.icon-linkedin-circled,
+.icon-github-circled {
+  color: #60b3dd;
+  font-size: 32px;
+}
+.footer {
+  text-align: center;
+  padding-top: 20px;
+}

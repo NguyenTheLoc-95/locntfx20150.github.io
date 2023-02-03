@@ -1,0 +1,192 @@
+* {
+  font-family: "inter", sans-serif;
+  box-sizing: border-box;
+}
+.digital-cv {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 1fr 300px 350px;
+  gap: 10px;
+}
+.digital-cv p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+/* <!-- .................PHAN GOALS................... --> */
+.item-1 span {
+  display: grid;
+  grid-template-columns: 50px 300px;
+  padding: 10px;
+  text-align: start;
+  justify-content: space-around;
+}
+
+/* <!-- ...................PHAN TEAM.................... --> */
+.item-2 span {
+  display: grid;
+  grid-template-columns: 30px 200px;
+  justify-content: space-around;
+  text-align: start;
+  padding: 5px;
+}
+/* <!-- ................PHAN TIMELINE.................. --> */
+.item-3 span {
+  display: grid;
+  grid-template-columns: 50px 200px;
+  justify-content: space-around;
+  text-align: start;
+  gap: 10px;
+  padding: 15px;
+}
+.item-3 {
+  grid-area: 1 / 3 / 3 / 3;
+}
+h2 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border: 1px solid rgb(129, 123, 123);
+  border-radius: 50%;
+  padding: 15px;
+  background-color: rgba(194, 194, 194, 0);
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: mintcream;
+}
+/* <!-- ...................PHAN SCOPES........................ --> */
+.item-4 span {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+/* <!-- .................PHAN PRIMARY......................... --> */
+.item-5 span {
+  display: grid;
+  grid-template-columns: 30px 250px;
+  justify-content: space-around;
+}
+/* -------------------PHAN MAU NEN BACGROUND VA ICON-------------------- */
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5 {
+  background-color: rgba(255, 255, 255, 0.788);
+}
+i {
+  font-size: 26px;
+}
+h1 {
+  text-transform: uppercase;
+  color: blue;
+  font-weight: 500;
+  padding: 10px;
+}
+/* --------DIEM NGAT CHO TABLETS-------- */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  * {
+    font-family: "inter", sans-serif;
+    box-sizing: border-box;
+  }
+  .digital-cv {
+    display: block;
+  }
+  .digital-cv p {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4,
+  .item-5 {
+    border: 10px solid blue;
+  }
+  .item-1 span {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    row-gap: 10px;
+  }
+  .item-2 span {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    row-gap: 10px;
+  }
+
+  .item-3 span {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    row-gap: 10px;
+  }
+
+  .item-4 span {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    row-gap: 10px;
+  }
+
+  .item-5 span {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    row-gap: 10px;
+  }
+  i {
+    font-size: 38px;
+    text-align: center;
+  }
+}
+/* ----------------DIEM NGAT CHO MOBILE----------------- */
+@media only screen and (max-width: 768px) {
+  * {
+    font-family: "inter", sans-serif;
+    box-sizing: border-box;
+  }
+  .digital-cv {
+    display: block;
+  }
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4,
+  .item-5 {
+    border: 10px solid blue;
+  }
+  .item-1 span {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    row-gap: 10px;
+  }
+  .item-2 span {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    row-gap: 10px;
+  }
+
+  .item-3 span {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    row-gap: 10px;
+  }
+
+  .item-4 span {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    row-gap: 10px;
+  }
+
+  .item-5 span {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    row-gap: 10px;
+  }
+  i {
+    font-size: 32px;
+
+    text-align: center;
+  }
+}

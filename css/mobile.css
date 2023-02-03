@@ -1,0 +1,80 @@
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  * {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    font-family: "inter", sans-serif;
+    margin: 0px auto;
+    box-sizing: border-box;
+  }
+
+  /* PHAN NAV-BAR */
+  .nav-item {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .nav-bar a {
+    text-align: start;
+    align-self: stretch;
+    border-collapse: collapse;
+  }
+  #ten {
+    display: none;
+  }
+  .img-nav {
+    display: none;
+  }
+  #nav-bar {
+    height: 100%;
+  }
+  /* --- */
+  /* PHAN THONG TIN NGHE NGHIEP */
+  /*   .thong-tin {
+    grid-template-columns: 1fr;
+    justify-content: right;
+  }
+  .thong-tin div {
+    padding: 0;
+    margin: 0;
+  }
+  #target {
+    display: block;
+    padding: 0;
+    margin: 20px 10px;
+  }
+  #personal-info {
+    padding: 0;
+    margin: 20px 10px;
+  } */
+  /* PHAN CHUNG CHI -GIAI THUONG */
+  .chung-chi {
+    display: block;
+    margin-bottom: 16px;
+  }
+  .lap-trinh {
+    display: block;
+  }
+  .lap-trinh img {
+    width: 100%;
+  }
+  .chung-chi p {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+  /* PHAN DU AN  */
+  /* PHAN DU AN SU DUNG CSS CHO MEDIA@ */
+  .cua-toi {
+    display: block;
+  }
+
+  .cv-ca-nhan span {
+    display: block;
+  }
+  figure {
+    margin-top: 30px;
+  }
+  #g {
+    max-width: 80px;
+  }
+}
