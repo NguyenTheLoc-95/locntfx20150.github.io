@@ -51,6 +51,7 @@ header {
   justify-content: space-around;
   list-style: none;
   height: auto;
+  align-items: center;
 }
 .nav-bar a {
   font-weight: bold;
@@ -126,6 +127,9 @@ header {
   grid-template-columns: repeat(3, 1fr); */
   font-size: 18px;
   gap: 30px;
+}
+.job{
+  justify-content: space-around;
 }
 .b {
   position: relative;
